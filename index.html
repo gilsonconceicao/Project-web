@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,37 @@
     <title>Project Web</title>
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
     <header>
         <span class="logo">
             <a href="index.html">Logo</a>
         </span>
         <nav class="menu_navbar">
-            <ul>
+            <ul class="itens_menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Indentificador de CEP</a></li>
-                <li><a href="#">Gerador de senha</a></li>
-                <li><a href="#">Lista de terfas</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Saiba mais</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Project Web</h1>
-        <p>Bem vindo ao projeto web!</p>
+        <div class="about_website">
+            <h1>Project Web</h1>
+            <p>Bem vindo ao projeto web!</p>
+            <form>
+                <input type="text" placeholder="O que você procura ?" name="search" id="seacrh">
+                <button class="btn_search">Buscar</button>
+            </form>
+        </div>
+
+        <div class="functions"></div><!-- Kawn -->
     </main>
 
     <footer>
         <p>Em desenvolvimento.</p>
     </footer>
 </body>
+
 </html>

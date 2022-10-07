@@ -140,11 +140,12 @@ li > p:hover {
     font-size: 20px;
     text-align: center;
     max-width: 400px;
-    margin: 50px auto;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .functions li {
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
 .functions a {
@@ -158,11 +159,15 @@ li > p:hover {
     margin: 20 0px;
 }
 
-li > p {
+li>p {
     background-color: #f3effaa1;
     padding: 10px;
     border: #2f3133;
     border-radius: 6px;
+}
+
+.about_website > p {
+    text-decoration: none;
 }
 
 

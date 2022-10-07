@@ -49,6 +49,7 @@ header {
     max-width: 600px;
     text-align: center;
     margin: 60px auto;
+    font-size: 15px;
 }
 
 .about_website h1 {
@@ -119,14 +120,14 @@ footer {
     display: none;
 }
 
-li:hover > p {
+li:hover>p {
     color: #ffffff54;
     display: block;
     transition: .5s;
     background-color: rgba(53, 53, 235, 0.514);
 }
 
-li > p:hover {
+li>p:hover {
     color: #ffffffcc;
     cursor: pointer;
     margin: 20px 0;
@@ -170,7 +171,7 @@ li > p {
     border-radius: 6px;
 }
 
-.about_website > p {
+.about_website>p {
     text-decoration: none;
 }
 
@@ -195,7 +196,7 @@ li > p {
 .gerator-password label {
     display: block;
     font-size: 20px;
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
 input {
@@ -240,5 +241,58 @@ select {
 
 .paragraph {
     color: #fff;
-    margin: 10px 0 ;
+    margin: 10px 0;
+}
+
+/* ----------------  Check List -------------------  */
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: none;
+    box-shadow:0 0 10px #000000e8;
+}
+
+.nometarefa {
+    width: 250px;
+}
+
+#descricaotarefa {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-indent: 10px;
+    box-shadow:0 0 10px #000000e8;
+}
+
+
+
+div > p {
+    color: #f1ededda;
+    text-shadow: 0 0 10px #000000e8;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+div > button {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    box-shadow:0 0 10px #000000e8;
+}
+
+.salvartarefa {
+    text-align: center;
+    height: 80px;
+    margin-top: 5px;
+}
+
+/* ----------------  Gerador de CEPs -------------------  */
+
+.digitecep {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

@@ -137,6 +137,7 @@ li > p:hover {
     text-shadow: 0 0 10px #000000e8;
     font-weight: bold;
     font-size: 1.5em;
+    margin-top: 30px;
 }
 
 .functions {
@@ -197,6 +198,16 @@ li > p {
     margin: 10px 0 ;
 }
 
+input {
+    display: block  ;
+}
+
+label {
+    color: #fff;
+    margin: 10px 0 ;
+    font-size: 13px;
+}
+
 
 .btn-gerete-password {
     background-color: #5574fc;
@@ -205,12 +216,26 @@ li > p {
     font-size: 20px;
     border: none;
     border-radius: 6px;
-    padding: 10px;
+    margin: 10px 0 0 0 ;
+    padding: 5px 10px;
 }
 
-#checked_type_password select {
+select {
+    font-size: 17px;
+    padding: 5px;
+    display: block;
     color: #0c0c0c;
-    padding: 10px;
+}
+
+#quantWordsOrLetters {
+    width: 50px;
+    font-size: 18px;
+    padding: 4px;
+}
+
+#quantCaraters {
+    font-size: 20px;
+    width: 50px;
 }
 
 .paragraph {

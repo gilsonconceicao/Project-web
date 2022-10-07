@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto+Condensed&display=swap');
 
 * {
-    color: #ffffff;
+    color: #1a1818;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -203,4 +203,14 @@ li>p {
     border: none;
     border-radius: 6px;
     padding: 10px;
+}
+
+#checked_type_password select {
+    color: #0c0c0c;
+    padding: 10px;
+}
+
+.paragraph {
+    color: #fff;
+    margin: 10px 0 ;
 }

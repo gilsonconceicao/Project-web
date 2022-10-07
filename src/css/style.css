@@ -120,14 +120,14 @@ footer {
     display: none;
 }
 
-li:hover>p {
+li:hover > p {
     color: #ffffff54;
     display: block;
     transition: .5s;
     background-color: rgba(53, 53, 235, 0.514);
 }
 
-li>p:hover {
+li > p:hover {
     color: #ffffffcc;
     cursor: pointer;
     margin: 20px 0;
@@ -244,12 +244,37 @@ select {
     margin: 10px 0;
 }
 
+.digitecep {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.digitecep {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.qtdn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:0 0 10px #000000e8;
+}
+
+#checked_type_password {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:0 0 10px #000000e8;
+}
+
+
 /* ----------------  Check List -------------------  */
 
-input {
+.nometarefa {
     padding: 10px;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 10px auto;
     border: none;
     box-shadow:0 0 10px #000000e8;
 }
@@ -289,10 +314,4 @@ div > button {
     margin-top: 5px;
 }
 
-/* ----------------  Gerador de CEPs -------------------  */
 
-.digitecep {
-    width: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}

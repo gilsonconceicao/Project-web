@@ -1,5 +1,5 @@
 var select = document.getElementById('checked_type_password')
-const campResult = document.querySelector('.res-password'); 
+const campResult = document.querySelector('.result'); 
 
 //numbers random
 const numbersRandom = Math.floor(Math.random() * 100000000); 

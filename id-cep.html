@@ -32,12 +32,16 @@
     <main>
         <div class="about_website">
             <h1>Buscador de CEP</h1>
-            <input class="digitecep" id="searchCep" type="text" placeholder="Digite o CEP aqui:">
-            <div class="buscarcep">
-                <button onclick="seacrhingCep()">
-                    Buscar CEP
-                </button>
-            </div>
+            <form>
+                <input class="digitecep" id="searchCep" type="text" placeholder="Digite o CEP aqui:">
+                <div class="buscarcep">
+                    <button id="btn-submit">
+                        Buscar CEP
+                    </button>
+                </div>
+            </form>
+
+            <div class="result"></div>
         </div>
 
         <div class="functions">

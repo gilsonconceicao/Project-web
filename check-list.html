@@ -26,7 +26,7 @@
                 </abbr>
                 </abbr>
                 <abbr title="Ver Minha Lista Completa">
-                    <li><a class="verlista" href="#">Minha Lista &#9733;</a></li>
+                    <li><a class="verlista" href="mylist.html">Minha Lista &#9733;</a></li>
                 </abbr>
             </ul>
         </nav>
@@ -35,13 +35,14 @@
     <main>
         <div class="about_website">
             <h1>Lista de Tarefas</h1>
+            <p class="messageError"></p>
             <p>Nome:</p>
-            <input class="nometarefa" type="text" placeholder="Digite o nome:">
+            <input class="nometarefa" type="text" id="title" placeholder="Digite o nome:">
             <br>
             <p>Descrição:</p>
             <textarea name="descricaotarefa" id="descricaotarefa" cols="40" placeholder="Digite a descrição:" rows="5"></textarea>
             <div class="salvartarefa">
-                <button>
+                <button id="submit_task">
                     Salvar tarefa
                 </button>
             </div>
@@ -67,5 +68,5 @@
         <p>Em desenvolvimento.</p>
     </footer>
 </body>
-
+<script src="src/js/checkList.js" defer></script>
 </html>

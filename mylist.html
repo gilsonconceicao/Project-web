@@ -26,7 +26,7 @@
                 </abbr>
                 </abbr>
                 <abbr title="Adicionar á Minha Lista">
-                    <li><a class="verlista" href="#">Adicionar item á Lista &#9733;</a></li>
+                    <li><a class="verlista" href="check-list.html">Adicionar item á Lista &#9733;</a></li>
                 </abbr>
             </ul>
         </nav>
@@ -35,9 +35,13 @@
     <main>
         <div class="about_website">
             <h1>Tarefas</h1>
-            
             <p>Minha Lista:</p>
-            <textarea name="descricaotarefa" id="descricaotarefa" cols="40" placeholder="#" rows="5"></textarea>
+
+            <div class="conatainer_tasks">
+                <div id="data_list"></div>
+                 <button class="removeList">Remover lista</button>
+            </div>
+            
             <div class="salvartarefa">
                 <button>
                     Adicionar tarefa
@@ -50,5 +54,5 @@
         <p>Em desenvolvimento.</p>
     </footer>
 </body>
-
+<script src="src/js/showListUser.js" defer></script>
 </html>

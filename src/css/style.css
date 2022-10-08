@@ -59,7 +59,7 @@ header {
     font-size: 5em;
 }
 
-.about_website p {
+.about_website > p {
     color: #f1ededda;
     text-decoration: underline;
     font-size: 24px;
@@ -271,6 +271,15 @@ select {
     box-shadow:0 0 10px #000000e8;
 }
 
+.data-cep {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
 
 /* ----------------  Check List -------------------  */
 
@@ -295,8 +304,6 @@ select {
     box-shadow:0 0 10px #000000e8;
 }
 
-
-
 div > p {
     color: #f1ededda;
     text-shadow: 0 0 10px #000000e8;
@@ -319,10 +326,55 @@ div > button {
 }
 
 
-<<<<<<< HEAD
 .digitecep {
     width: 200px;
     margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
 }
-=======
->>>>>>> ca612c6b304ae620198a6ac28fda2a7102d789db
+
+
+.conatainer_tasks {
+    background-color: #f5f1f1;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0000007a;
+    position: relative;
+}
+
+
+.tasks {
+    background-color: #2222221c;
+    color: #ffffff;
+    margin: 10px ;
+    position: relative;
+    padding: 10px;
+    text-align: left;
+}
+
+.date {
+    position: absolute; 
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+}
+
+.btn_remove_task {
+    background-color: #f14223;
+    border: none;
+    color: #ffffffe3;
+    cursor: pointer;
+    width: 60px;
+    box-shadow: 0 0 0 #00000000;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: 10px;
+    transition: .5s;
+}
+
+.btn_remove_task:hover {
+    background-color: #e62806;
+}

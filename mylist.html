@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <abbr title="Página Principal"><a href="index.html">
+                <img class="image_logo" src="src/assets/img/logo.png" alt="logo">
+            </a></abbr>
+        </span> 
+        <nav class="menu_navbar">
+            <ul class="itens_menu">
+                <abbr title="Página Principal">
+                    <li><a href="index.html">Home 	&#9709;</a></li>
+                </abbr>
+                </abbr>
+                <abbr title="Adicionar á Minha Lista">
+                    <li><a class="verlista" href="check-list.html">Adicionar item á Lista &#9733;</a></li>
+                </abbr>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about_website">
+            <h1>Tarefas</h1>
+            <p>Minha Lista:</p>
+
+            <div class="conatainer_tasks">
+                <div id="data_list"></div>
+                 <button class="removeList">Remover lista</button>
+            </div>
+            
+            <div class="salvartarefa">
+                <button onclick="addMoreTask()">
+                    Adicionar tarefa
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="src/js/showListUser.js" defer></script>
+</html>

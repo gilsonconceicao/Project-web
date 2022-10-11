@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de CEP</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <header>
+        <span class="logo">
+            <abbr title="Página Principal"><a href="index.html">
+                <img class="image_logo" src="src/assets/img/logo.png" alt="logo">
+            </a></abbr>
+        </span> 
+        <nav class="menu_navbar">
+            <ul class="itens_menu">
+                <abbr title="Página Principal">
+                    <li><a href="index.html">Home &#9709;</a></li>
+                </abbr>
+                <abbr title="Suporte/Dúvidas">
+                </abbr>
+                
+                <abbr title="Desenvolvedores">
+                    <li><a href="devs.html">Devs &#9733;</a></li>
+                </abbr>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about_website">
+            <h1>Buscador de CEP</h1>
+            <form>
+                <input class="digitecep" id="searchCep" type="text" placeholder="Digite o CEP aqui:">
+                <div class="buscarcep">
+                    <button id="btn-submit">
+                        Buscar CEP
+                    </button>
+                </div>
+            </form>
+
+            <div class="result"></div>
+        </div>
+
+        <div class="functions">
+            <p class="aplication">Como funciona &#8681;</p>
+            <br>
+            <ul>
+                <li>
+                    <a href="id-cep.html">
+                        Buscador de CEP: Como funciona?
+                    </a>
+                    <p class="gerador">
+                        Lista de Tarefas organiza suas suas tarefas com clareza. Primeiro escolha uma nome para a tarefa desejada, logo em seguida descreva a tarefa e aperte ou clique na tecla enter.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="./src/js/searchCep.js" defer></script>
+</html>

@@ -19,18 +19,19 @@ body {
 /* cabeçalho */
 
 header {
-    background-color: #2f3133;
+    background-color: #0F1F2E;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
 
-.logo a {
-    color: #7023ec;
-    font-size: 27px;
-    text-decoration: none;
+.image_logo {
+    display: block;
+    border-radius: 100%;
+    width: 80px;
 }
+
 
 .itens_menu {
     display: flex;
@@ -378,14 +379,13 @@ div > button {
     background-color: #e62806;
 }
 
-<<<<<<< HEAD
 
 /* footer */
 
 footer {
     background-color: #222;
     display: flex;
-    width: 100%;
+    width: 97%;
     justify-content: space-between;
     padding: 50px 20px;
     margin-top: 40px;
@@ -394,37 +394,39 @@ footer {
 .topic_footer h3, span, em {
     color: #fff;
 }
-=======
 /* ----------------  Devs  -------------------  */
 
-.imgs {
-    background-color: white;
+.flex_about_devs {
     display: flex;
-    justify-content:space-around ;
-    width: 1200px;
-    height: 800px;
-    padding: 20px;
-    box-shadow: 0 0 10px;
-
+    max-width: 700px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;
 }
 
-.img {
-    width: 150px;
-    padding: 40px;
+.flex_about_devs  h2 {
+    text-align: center; 
+    font-style: italic;
+}
+
+.flex_about_devs h4 {
+    text-align: center; 
+    color: #800080b7;
+}
+
+.img_dev {
+    display: block;
+    width: 150px;    
     border-radius: 100%;
-}
-
-.imgs {
-    text-align: center;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .biography {
-    text-align: justify;
+    text-align: center;
     font-size: small;
-    color: #0c0c0c;
+    color: #0c0c0cab;
     margin: 10px;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #00000000;
 }
 
 .icons {
@@ -434,10 +436,31 @@ footer {
 }
 
 .background_imgg {
+    background-color: #fdfdfd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
     margin: 20px 0;
     border-radius: 10px;
     width: 300px;
 }
 
->>>>>>> 5ab747f82d5fc60b067b09b0343190d39022c9d9
+.icons_dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons_dev li {
+    font-size: 26px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: block;
+    }
+
+    .topic_footer {
+        margin: 30px 0;
+    }
+}

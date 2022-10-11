@@ -378,6 +378,7 @@ div > button {
     background-color: #e62806;
 }
 
+<<<<<<< HEAD
 
 /* footer */
 
@@ -393,3 +394,50 @@ footer {
 .topic_footer h3, span, em {
     color: #fff;
 }
+=======
+/* ----------------  Devs  -------------------  */
+
+.imgs {
+    background-color: white;
+    display: flex;
+    justify-content:space-around ;
+    width: 1200px;
+    height: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+
+}
+
+.img {
+    width: 150px;
+    padding: 40px;
+    border-radius: 100%;
+}
+
+.imgs {
+    text-align: center;
+    margin: auto;
+}
+
+.biography {
+    text-align: justify;
+    font-size: small;
+    color: #0c0c0c;
+    margin: 10px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.icons {
+    padding: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.background_imgg {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 300px;
+}
+
+>>>>>>> 5ab747f82d5fc60b067b09b0343190d39022c9d9

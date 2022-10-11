@@ -17,3 +17,7 @@ document.querySelector('.removeList').addEventListener('click', () => {
     window.localStorage.removeItem('listTasksCurrent'); 
     window.location.href = ''
 })
+
+function addMoreTask() {
+    window.location.href = './check-list.html'; 
+}

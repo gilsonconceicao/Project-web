@@ -36,7 +36,8 @@ const btn = document
     if (title != '' && description != '') {
         const task = new Tasks(title, description);
         task.addTasks();
-        messageError.innerHTML = 'Adicionado com sucesso!';
+        messageError.innerHTML = 'Adicionado com sucesso!'
+        return document.getElementById("title").value = '', description = document.getElementById("descricaotarefa").value = '';
     } else {
         messageError.innerHTML = 'É necessário preencher os campos disponíveis!'; 
         return;

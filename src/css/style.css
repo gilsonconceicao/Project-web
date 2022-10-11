@@ -146,8 +146,7 @@ li > p:hover {
     font-size: 20px;
     text-align: center;
     max-width: 400px;
-    margin: auto;
-    margin-bottom: 100px;
+    margin: auto; 
 }
 
 .functions li {
@@ -377,4 +376,20 @@ div > button {
 
 .btn_remove_task:hover {
     background-color: #e62806;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #222;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin-top: 40px;
+}
+
+.topic_footer h3, span, em {
+    color: #fff;
 }
